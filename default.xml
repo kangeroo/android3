@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="http://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+
+  <remote  name="tg"
+           fetch="https://github.com/"
+           review="review.gummyrom.com"
+           sync-j="8" />
+           
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets/" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
+  <default revision="refs/tags/android-4.4.2_r1"
+           remote="aosp"
+           sync-j="8" />
+
+  <project path="development" name="platform/development" />
+  <project path="frameworks/av" name="TEAM-Gummy/android_frameworks_av" remote="tg" revision="kk4.4" />
+  <project path="frameworks/base" name="TEAM-Gummy/android_frameworks_base" remote="tg" revision="kk4.4" />
+  <project path="frameworks/native" name="TEAM-Gummy/platform_frameworks_native" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Apollo" name="TEAM-Gummy/packages_apps_Apollo" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="TEAM-Gummy/packages_apps_Bluetooth" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/BluetoothExt" name="TEAM-Gummy/packages_apps_BluetoothExt" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Browser" name="TEAM-Gummy/packages_apps_Browser" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Calculator" name="TEAM-Gummy/packages_apps_Calculator" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Calendar" name="TEAM-Gummy/packages_apps_Calendar" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Camera2" name="TEAM-Gummy/packages_apps_Camera2" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/Contacts" name="TEAM-Gummy/packages_apps_Contacts" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="TEAM-Gummy/android_packages_apps_ConctactsCommon" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="TEAM-Gummy/packages_apps_DeskClock" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Dialer" name="TEAM-Gummy/android_packages_apps_Dialer" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Email" name="TEAM-Gummy/packages_apps_Email" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery2" name="TEAM-Gummy/packages_apps_Gallery2" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/GummyPapers" name="TEAM-Gummy/packages_apps_GummyPapers" remote="tg" revision="master" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="TEAM-Gummy/packages_apps_InCallUI" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher3" name="TEAM-Gummy/packages_apps_Launcher3" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/LockClock" name="TEAM-Gummy/android_packages_apps_LockClock" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/Mms" name="TEAM-Gummy/android_packages_apps_Mms" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/Settings" name="TEAM-Gummy/android_packages_apps_Settings" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Torch" name="TEAM-Gummy/packages_apps_Torch" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/UnifiedEmail" name="TEAM-Gummy/packages_apps_UnifiedEmail" remote="tg" revision="kk4.4" />
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/inputmethods/LatinIME" name="TEAM-Gummy/packages_inputmethods_LatinIME" remote="tg" revision="kk4.4" />
+  <project path="system/core" name="TEAM-Gummy/android_system_core" remote="tg" revision="kk4.4" />
+  <project path="system/vold" name="TEAM-Gummy/android_system_vold" remote="tg" revision="kk4.4" />
+  <project path="vendor/Gummy" name="TEAM-Gummy/vendor_Gummy" remote="tg" revision="kk4.4" />
+
+</manifest>
